@@ -1,0 +1,6 @@
+PATCH http://localhost:3000/authors/update/634de4769b1aeba7917723b5
+Content-Type: application/json; charset=utf-8
+
+{
+  "name": "Arthur Brown"
+}
