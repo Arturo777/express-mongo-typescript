@@ -57,14 +57,14 @@ const StartServer = () => {
 
     if (req.method == 'OPTIONS') {
       res.header('Access-Control-Allow-Methods', 'PUT, POST, PATCH, DELETE, GET');
-      return res.status(200).json({});
+      return res.status(200).json({})
     }
 
-    next();
-  });
+    next()
+  })
 
   /** Routes */
-  router.use('/authors', authorRoutes);
+  router.use('/authors', authorRoutes)
   // router.use('/books', bookRoutes);
 
   /* Health check */

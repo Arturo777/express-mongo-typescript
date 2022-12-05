@@ -1,4 +1,4 @@
-import { ValidateSchema, Schemas } from '../middleware/validateSchema'
+import { ValidateSchema, Schemas } from '../middleware/ValidateSchema'
 import * as express from 'express'
 import controller from '../controllers/Author'
 

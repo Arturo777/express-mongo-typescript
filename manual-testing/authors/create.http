@@ -2,5 +2,5 @@ POST http://localhost:3000/authors/create
 Content-Type: application/json; charset=utf-8
 
 {
-  "name": "Arthur Brown"
+  "name": "Cassandra Gutierrez"
 }
